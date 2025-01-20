@@ -1,4 +1,4 @@
-﻿## eCommerce Data Analysis
+# eCommerce Data Analysis
 
 ## Project Overview
 This project analyzes eCommerce transaction data to derive business insights, build a lookalike recommendation model, and perform customer segmentation.
@@ -9,14 +9,13 @@ This project analyzes eCommerce transaction data to derive business insights, bu
 3. **Clustering**: Segment customers based on behavior.
 
 ## Folder Structure
-- data/: Raw datasets.
-- 
-otebooks/: Jupyter Notebooks for analysis.
-- outputs/: Generated files (e.g., CSV, PDFs).
-- src/: Python scripts for reusable code.
+- `data/`: Raw datasets.
+- `notebooks/`: Jupyter Notebooks for analysis.
+- `outputs/`: Generated files (e.g., CSV, PDFs).
+- `src/`: Python scripts for reusable code.
 
 ## Setup
 1. Create a virtual environment:
-   `ash
+   ```bash
    python -m venv env
    source env/bin/activate
